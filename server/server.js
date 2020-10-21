@@ -5,8 +5,7 @@ const axios = require('axios');
 let fs = require('fs');
 var md5 = require('md5');
 
-let keyD=""
-let keyA="1ae3dc8f5b19"
+let keyA="YOURKEY"
 let key=keyA
 
 app.use(bodyParser.json({limit: '50mb'}));
